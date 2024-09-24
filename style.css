@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.firstbox {
+    width: 100%;
+    height: 50vh;
+    background-color: gray;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    /* background-color: red; */
+}
+
+.logo {
+    margin-top: 3%;
+}
+
+.firstbox .nav .links {
+    margin-top: 4%;
+    /* background-color: blue; */
+    width: 30%;
+}
+
+.firstbox .nav .links a {
+    text-decoration: none;
+    color: black;
+    margin: 2%;
+}
+
+.intro-slider {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    /* background-color: red; */
+    width: 100%;
+    height: 37vh;
+}
+
+.left {
+    width: 30%;
+    /* background-color: blue; */
+    margin-left: 2%;
+    margin-top: 2%;
+}
+
+.left p {
+    font-size: 2em;
+}
+
+.slider {
+    width: 40%;
+    height: 32vh;
+    background-color: lightgray;
+    margin-top: 2%;
+}
+
+.intro-slider .slider h3 {
+    margin-top: 15%;
+    margin-left: 12%;
+}
+
+.circles {
+    width: 100%;
+    height: 5vh;
+    margin-top: 1%;
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: center;
+}
+
+.one {
+    margin-left: 35% !important;
+}
+
+.circle {
+    margin-left: 1%;
+    margin-top: 0.5%;
+    width: 1.2%;
+    height: 50%;
+    background-color: gray;
+    border-radius: 45%;
+}
+
+.services {
+    width: 100%;
+    /* height: 50vh; */
+    /* background-color: pink; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 2%; */
+}
+
+.service {
+    width: 30%;
+    height: 40vh;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3%;
+}
+
+.recent-work {
+    width: 100%;
+    /* height: 50vh; */
+    /* background-color: pink; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 2%; */
+}
+
+.recent {
+    width: 30%;
+    height: 40vh;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3%;
+    margin-top: 1% !important;
+}
+
+.twitter {
+    width: 94%;
+    height: 10vh;
+    background-color: gray;
+    margin-left: 3%;
+}
+
+.twitter h3 {
+    padding: 2%;
+}
+
+.footer {
+    width: 100%;
+    height: 10vh;
+    background-color: gray;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1%;
+}
+
+.footer .links {
+    margin-top: 2%;
+    width: 30%;
+    /* background-color: pink; */
+}
+
+.footer .links a {
+    text-decoration: none;
+    margin: 3%;
+    color: black;
+}
+
+.copyright {
+    margin-top: 2%;
+}
